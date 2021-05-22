@@ -27,3 +27,34 @@ main, body {
 .container {
   padding: 0 15%;
 }
+
+@media (max-width: $screen-xl) {
+  h1, h2 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: $screen-lg) {
+  h1, h2 {
+    font-size: 60px;
+    letter-spacing: -3px;
+  }
+}
+
+@media (max-width: $screen-md) {
+  h1, h2 {
+    font-size: 50px;
+    letter-spacing: -2px;
+  }
+
+  .container {
+    padding: 0 8%;
+  }
+}
+
+@media (max-width: $screen-sm) {
+  h1, h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+}

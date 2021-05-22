@@ -1,4 +1,5 @@
 import '../css/app.scss';
+import Menu from './Menu';
 
 class App {
   constructor () {
@@ -6,6 +7,7 @@ class App {
   }
 
   initApp () {
+    new Menu();
   }
 }
 
