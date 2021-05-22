@@ -4,7 +4,11 @@
 @import "config/variables";
 @import "config/global";
 
-// Layouts
-@import "layouts/front-page";
-
 // Components
+@import "components/button";
+
+// Partials
+@import "partials/common/header";
+@import "partials/common/footer";
+@import "partials/block";
+@import "partials/cover";

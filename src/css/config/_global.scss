@@ -1,0 +1,29 @@
+h1, h2 {
+  font-family: $font-title;
+  font-size: 75px;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: $font-body;
+  font-size: 14px;
+  position: relative;
+}
+
+main, body {
+  overflow-x: hidden;
+}
+
+.spacing-widest {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 0 15%;
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="271.024" height="34.354" viewBox="0 0 271.024 34.354">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="271.025" height="34.354" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Logo_white" data-name="Logo/white" clip-path="url(#clip-path)">
+    <path id="Fill_2" data-name="Fill 2" d="M5.27,0,0,9.089,8.994,24.628l-.009.014,5.273,9.09,5.265-9.094Z" transform="translate(0 0.187)" fill="#fff"/>
+    <path id="Fill_3" data-name="Fill 3" d="M28.5,9.081,23.246,0,14.257,15.534,5.27,0,0,9.09,14.258,33.732Z" transform="translate(17.973 0.187)" fill="#fff"/>
+    <path id="Fill_4" data-name="Fill 4" d="M34.969,34.353h-5.6L23.051,13.511,16.73,34.353h-5.6L0,0H7.022l7.247,21.662L20.543,0h5.016l6.27,21.662L39.706,0h7.342Z" transform="translate(77.746)" fill="#fff"/>
+    <path id="Fill_5" data-name="Fill 5" d="M6.995,34.354H0L12.5,0h5.257L30.3,34.352h-7l-2.023-6.082H9.069L6.995,34.353Zm8.3-24.222-4.342,12.5h8.542Z" transform="translate(119.815 0)" fill="#fff"/>
+    <path id="Fill_6" data-name="Fill 6" d="M0,34.353V0H6.709V28.371h13.64v5.982Z" transform="translate(178.778)" fill="#fff"/>
+    <path id="Fill_7" data-name="Fill 7" d="M0,34.353H6.709V0H0Z" transform="translate(203.188 0)" fill="#fff"/>
+    <path id="Fill_8" data-name="Fill 8" d="M0,0V34.352H22.63V28.371H6.71v-8.35H20.267V14.038H6.71V5.981H22.63V0Z" transform="translate(248.395 0.001)" fill="#fff"/>
+    <path id="Fill_9" data-name="Fill 9" d="M12.545,34.353H17.8L30.3,0h-7l-8.3,22.894L7,0H0Z" transform="translate(145.265)" fill="#fff"/>
+    <path id="Fill_10" data-name="Fill 10" d="M12.544,34.353H17.8L30.3,0h-7l-8.3,22.894L7,0H0Z" transform="translate(214.156)" fill="#fff"/>
+  </g>
+</svg>

@@ -20,7 +20,7 @@ let config = {
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|svg)$/,
         use:
         {
           loader: 'file-loader',
@@ -77,7 +77,7 @@ let config = {
     new HtmlWebpackPlugin({
       template: './src/index.ejs',
       filename: 'index.html'
-    }),
+    })
   ]
 };
 

@@ -1,0 +1,12 @@
+<svg id="LOGO" xmlns="http://www.w3.org/2000/svg" width="238" height="56" viewBox="0 0 238 56">
+  <path id="Fill_1" data-name="Fill 1" d="M0,56H56V0H0Z" fill="#f7204e"/>
+  <path id="Fill_2" data-name="Fill 2" d="M4.589,0,0,7.814,7.832,21.173l-.008.012L12.415,29,17,21.182Z" transform="translate(8 14)" fill="#fff"/>
+  <path id="Fill_3" data-name="Fill 3" d="M25,7.807,20.39,0,12.505,13.355,4.622,0,0,7.815,12.506,29Z" transform="translate(23 14)" fill="#fff"/>
+  <path id="Fill_4" data-name="Fill 4" d="M29.73,29H24.973L19.6,11.406,14.224,29H9.466L0,0H5.97l6.161,18.287L17.466,0H21.73l5.331,18.287L33.758,0H40Z" transform="translate(74 14)" fill="#fff"/>
+  <path id="Fill_5" data-name="Fill 5" d="M5.771,29H0L10.311,0h4.338L25,29H19.228l-1.67-5.135H7.484L5.772,29ZM12.619,8.553,9.036,19.1h7.049Z" transform="translate(110 14)" fill="#fff"/>
+  <path id="Fill_6" data-name="Fill 6" d="M0,29V0H5.6V23.95H17V29Z" transform="translate(160 14)" fill="#fff"/>
+  <path id="Fill_7" data-name="Fill 7" d="M0,29H6V0H0Z" transform="translate(180 14)" fill="#fff"/>
+  <path id="Fill_8" data-name="Fill 8" d="M0,0V29H19V23.951H5.634V16.9H17.016V11.851H5.634v-6.8H19V0Z" transform="translate(219 14)" fill="#fff"/>
+  <path id="Fill_9" data-name="Fill 9" d="M10.351,29h4.338L25,0H19.228L12.382,19.327,5.772,0H0Z" transform="translate(131 14)" fill="#fff"/>
+  <path id="Fill_10" data-name="Fill 10" d="M10.351,29h4.338L25,0H19.228L12.381,19.327,5.773,0H0Z" transform="translate(190 14)" fill="#fff"/>
+</svg>

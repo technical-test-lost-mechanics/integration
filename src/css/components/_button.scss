@@ -1,0 +1,16 @@
+.button {
+  padding: 20px 35px;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &--pink {
+    background-color: $color-pink;
+    color: $color-white;
+  }
+}

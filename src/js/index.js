@@ -1,12 +1,12 @@
-import '../css/app.scss'
+import '../css/app.scss';
 
 class App {
   constructor () {
-    this.initApp()
+    this.initApp();
   }
 
   initApp () {
   }
 }
 
-new App()
+new App();

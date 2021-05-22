@@ -1,0 +1,25 @@
+<section class="block container <%= typeof reverse!='undefined' && reverse ? 'block--reverse' : '' %>">
+    <div>
+        <% if (typeof title!='undefined' && title) { %>
+            <h2><%= title %></h2>
+        <% } %>
+
+        <% if (typeof text!='undefined' && text) { %>
+            <p class="block__text"><%= text %></p>
+        <% } %>
+
+        <% if (typeof buttonText!='undefined' && buttonText && typeof buttonLink!='undefined' && buttonLink) { %>
+            <%= require('../components/button.ejs')({
+                buttonText,
+                buttonLink,
+                buttonClass : 'button--pink'
+            }) %>
+        <% } %>
+    </div>
+
+    <div>
+        <% if (typeof number!='undefined' && number) { %>
+            <p class="block__number"><%= number %></p>
+        <% } %>
+    </div>
+</section>
