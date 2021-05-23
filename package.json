@@ -8,8 +8,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cartapus": "^1.0.1",
     "ejs-loader": "^0.5.0",
     "glob": "^7.1.6",
+    "gsap": "file:gsap-bonus.tgz",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },

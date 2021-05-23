@@ -33,6 +33,26 @@
     font-size: 420px;
     opacity: 0.1;
     letter-spacing: -20px;
+    display: flex;
+
+    &[data-cartapus] {
+      span {
+        opacity: 0;
+        transform: translateY(-30px);
+        transition: transform ease-out 0.5s, opacity ease-out 0.5s;
+
+        &:nth-child(2) {
+          transition-delay: 0.2s;
+        }
+      }
+    }
+
+    &[data-cartapus=visible] {
+      span {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   }
 
   > div:nth-child(1) {

@@ -1,17 +1,42 @@
 .button {
-  padding: 20px 35px;
-  font-weight: 700;
-  text-align: center;
-  width: fit-content;
-  transition: transform 0.2s ease-in-out;
-  line-height: 1.2;
+  > div {
+    padding: 20px 35px;
+    font-weight: 700;
+    text-align: center;
+    width: fit-content;
+    transition: transform 0.6s $ease-quad-out;
+    line-height: 1.2;
+  }
 
   &:hover {
-    transform: scale(1.05);
+    > div {
+      transform: scale(1.05);
+    }
   }
 
   &--pink {
-    background-color: $color-pink;
-    color: $color-white;
+    > div {
+      background-color: $color-pink;
+      color: $color-white;
+    }
+  }
+
+  &[data-cartapus] {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.6s $ease-quad-out;
+
+    p {
+      opacity: 0;
+      transition: opacity 0.2s ease-out 0.5s;
+    }
+  }
+
+  &[data-cartapus=visible] {
+    transform: scaleX(1);
+
+    p {
+      opacity: 1;
+    }
   }
 }

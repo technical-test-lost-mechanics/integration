@@ -28,6 +28,16 @@ main, body {
   padding: 0 15%;
 }
 
+.js-text {
+  &[data-cartapus] {
+    opacity: 0;
+  }
+
+  &[data-cartapus=visible] {
+    opacity: 1;
+  }
+}
+
 @media (max-width: $screen-xl) {
   h1, h2 {
     font-size: 70px;

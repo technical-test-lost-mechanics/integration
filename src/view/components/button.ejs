@@ -1,6 +1,8 @@
 <% if (typeof buttonText!='undefined' && buttonText && typeof buttonLink!='undefined' && buttonLink) { %>
-    <a href="<%= buttonLink %>" class="button spacing-widest <%= typeof buttonClass!='undefined' ? buttonClass : '' %>">
-        <%= buttonText %>
+    <a href="<%= buttonLink %>" class="button <%= typeof buttonClass!='undefined' ? buttonClass : '' %>" data-cartapus>
+        <div>
+            <p class="spacing-widest"><%= buttonText %></p>
+        </div>
     </a>
 <% } %>
 
